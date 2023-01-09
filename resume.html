@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Resume</title>
-    <link rel="stylesheet" href="/cssforresume.css">
+    <link rel="stylesheet" href="cssforresume.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
        
@@ -11,64 +11,109 @@
 </head>
 <body>
     <div class="container">
+
         <div class="leftBox">
             <div class ="user-image">
-               <img  class ="profile"src="/eddieimage.jpg" alt="man image"> 
-                <h1>Edward Lobonavskiy</h1> 
-                <h3> Front end Developer</h3>
+               <img  class ="profile"src="eddieimage.jpg" alt="man image"> 
+                <div class = "name">Edward Lobonavskiy</div> 
+                <div class = "role"> Front end Developer</div>
             </div>
 
             <div class = user-details>
-                <h3><i class="fa fa-envelope"></i> ed2lobiy@gmail.com<br></h3> <hr></i>
-                <h3><i class="fa fa-map-marker"></i>   Los angels <br></h3><hr>
-                <h3><i class="fa fa-suitcase"></i>  Full Time <br></h3><hr>
-                <h3><i class="fa fa-square"></i>  Sales and marketing</h3> <br>
-                <button class = download-button>Download Resume</button>
+                <span><i class="fa fa-envelope"></i> ed2lobiy@gmail.com</span><hr></i>
+                <span><i class="fa fa-map-marker"></i> Los angels</span><hr>
+                <span><i class="fa fa-suitcase"></i> Full Time</span><hr>
+                <span><i class="fa fa-square"></i> Sales and marketing</span>
+                <div class="download-button">
+                <span>Download Resume</span>
+            </div>
             </div>
         </div>
         
          <div class="rightBox">
             <div class="user-heading">
-                <strong ><h2>Professional Summary</h2></strong>
+                <strong><h2>Professional Summary</h2></strong>
             </div>
             <div class = "professional-summary">
-                <p>
+                <p class = "summary">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit, odit facere temporibus reiciendis, nam cupiditate eveniet repellendus obcaecati nulla est, praesentium repellat consequuntur! Doloremque aliquam minus eligendi eius impedit, excepturi non cupiditate ipsum magni voluptas porro blanditiis tenetur ratione cum a illum soluta amet officiis. Dignissimos rerum magni pariatur repellat, in vitae sequi natus, neque nihil quae corrupti animi?
                 </p>
             </div> 
             <div class = "user-experience">
+
                 <h2>Work Experience</h2>
-                <span>Senior Front End Developer </span>
-                <span class = "user-full-time"><button class = "full-time-button">Full time</button></span><br><br>
-                <span class ="company"><i class="fa fa-building-o" aria-hidden="true"></i>    apple incc  </span>
-                <span class ="location"><i class="fa fa-map-marker"></i>los angeles</span>
-                <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i>april.12.2020</span><hr>
 
-                <span>Junior Front End Developer </span>
-                <span class = "user-full-time"><button class="full-time-button">Full time</button></span><br><br>
-                <span class ="company"><i class="fa fa-building-o" aria-hidden="true"></i>    Figma inc</span>
-                <span class ="location"><i class="fa fa-map-marker"></i>San Fransisco</span>
-                <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i>april.12.2020-july 19.2018</span><hr>
+                <div class ="sfd">
+                    <div class = "senior-developer">
+                        <span>Senior Front End Developer </span>
+                        <span class = "button">Full time</span>
+                    </div>
+                    
+                    <div class = work-details>
+                        <span class ="company"><i class="fa fa-building-o"></i> Apple inc.</span>
+                        <span class ="location"><i class="fa fa-map-marker"></i> Los Angeles</span>
+                        <span class="date"><i class="fa fa-calendar"></i> April.12.2020</span>
+                    </div>
+                </div>
 
-                <span>Intern Developer </span>
-                <span class = "user-full-time"><button class = "full-time-button">Full time</button></span><br><br>
-                <span class ="company"><i class="fa fa-building-o" aria-hidden="true"></i>    Microsoft</span>
-                <span class ="location"><i class="fa fa-map-marker"></i>New York City</span>
-                <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i>april.12.2017 - july 19.2018</span><hr>
+                 <div class = "jfd">
+                    <div class="junior-developer">
+                        <span>Junior Front End Developer </span>
+                        <div class = "button"> Full time</div>
+                    </div>
+                
+                    <div class="work-details">
+                        <span class ="company"><i class="fa fa-building-o"></i> Figma inc</span>
+                        <span class ="location"><i class="fa fa-map-marker"></i> San Fransisco</span>
+                        <span class="date"><i class="fa fa-calendar"></i> April.12.2020-July 19.2018</span>
+                    </div>
+                 </div>
+
+                <div class="id">
+                   <div class="intern-developer">
+                       <span>Intern Developer </span>
+                       <span class = "button">Full time</span>
+                   </div>
+    
+                   <div class="work-details">
+                       <span class ="company"><i class="fa fa-building-o"></i> Microsoft</span>
+                       <span class ="location"><i class="fa fa-map-marker"></i> New York City</span>
+                       <span class="date"><i class="fa fa-calendar" ></i> April.12.2017 - July 19.2018</span>
+                   </div>
+                </div>
+
             </div>
 
             <div class = "user-education">
+                
                 <h2>Education</h2>
-                <h4>Masters in software engineer </h4>
-                <span class ="company"><i class="fa fa-graduation-cap" aria-hidden="true"></i>   Massechusets Institute</span>
-                <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i>jan.12.2014 - dec 12.2014 - 2016</span><br><hr>
 
-                <h4>Bachelor in software engineer </h4>
-                <span class ="company"> <i class="fa fa-graduation-cap" aria-hidden="true"></i>   Massechusets Institute</span>
-                <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i>jan.12.2014 - dec 12.2014 - 2016</span><br><br>
+                <div class="mse">
+                    <div class="masters-software-engineer">
+                        <span>Masters in software engineer </span>
+                    </div>
+                    
+                    <div class="education-details">
+                        <span class ="company"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Massechusets Institute</span>
+                        <span class="date"><i class="fa fa-calendar" ></i>
+                        Jan.12.2014 - Dec 12.2014 - 2016</span>
+                    </div>
+                </div>
+
+                <div class="bse">
+                    <div class="software-engineer">
+                        <span>Bachelor in software engineer </span>
+                    </div>
+                    
+                    <div class="software-engineer-details">
+                        <span class ="company"> <i class="fa fa-graduation-cap" aria-hidden="true"></i> Massechusets Institute</span>
+                        <span class="date"><i class="fa fa-calendar"></i>
+                        Jan.12.2014 - Dec 12.2014 - 2016</span>
+                    </div>
+                </div>
+
             </div>
          </div> 
-        
     </div>
 </body>
 </html>

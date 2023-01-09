@@ -1,99 +1,168 @@
-.container{
-    display: flex; 
-    width: 100%
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px; 
 }
 
 .user-image{
     text-align: center;
-    color: rgb(59, 59, 174);
+    color: #31437e;
+    font-family: sans-serif;
+    padding-top: 50px;
 }
 
 .profile{
     border-radius: 50%;
 }
 
-.user-name{
-    height:20px; 
-    text-align: center;
-}
-
-.user-role{
-    height: 20px;
-    text-align: left;
-}
-
 .user-details{
     text-align: left;
-    padding-top: 30px;
-    color: rgb(59, 59, 174);
+    color: #62739e;
+    font-family: system-ui;
+    margin-top: 40px;
+    font-weight: 700;
 }
 
 .leftBox{
-    width: 500px;
-    text-align: center;
-    padding-left: 100px;
-    
+    width: 25%; 
+    float: left;
+    margin-left: 30px;
 }
 
 .rightBox{
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 100%;   
+    width: 60%;
+    float: right;
+    margin-right: 20px;
 } 
 
 .user-heading{
     padding: 1px;
-    color: rgb(59, 59, 174);
-    font-size:  large;
+    color: #32457f;
+    font-size: large;
+    font-family: system-ui;
 }
 
 .user-experience{
     padding: 1px;
-    color: rgb(59, 59, 174);
+    color: #30437e;
     font-size: large;
+    font-family: system-ui;
 }
 
 .user-education{
-    padding: 1px;
-    color: rgb(59, 59, 174);
+    color: rgb(49 68 127);
     font-size: large;
+    font-family: system-ui;
 }
 
 .professional-summary{
-    color: blue;
+    color: #0b0b82;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .download-button{
-    border: 1px solid white;
-    background-color: blue;
+    border: 1px solid #ffffff;
+    background-color: #377cfe;
     color: white;
-    border-radius: 70px;
+    border-radius: 10px;
+    margin-right:50px;
+    margin-top: 50px;
+    text-align: center;
+    height: 25px;
 }
 
-.user-full-time{
-    float: right;
-    color: rgb(85, 180, 85);
-}
-
-.full-time-button{
-    border: 1px solid white;
-    background-color: rgb(122, 228, 122);
-    color: rgb(121, 121, 237);
-    border-radius: 20px
+.button{
+    float: right; 
+    background-color:   #d7ffe0;
+    color: #272395;
+    border-radius: 30px;
+    text-align: center;
+    font-size:medium;
+    font-weight: 600;
+    width: 15%;
 }
 
 .company{
-    color:rgb(125, 125, 159);
+    color: #c9cbda;
     float:left;
 }
 
 .date{
-    color: rgb(125, 125, 159);
-    float:right; 
+    color: #c9cbda;
+    float:right;  
+    
 }
 
 .location{
-    color: rgb(125, 125, 159);
-     padding-left: 100px;
+    color: #c9cbda;
+    padding-left: 40px;
+}
+
+.role{
+    color: #45578cc4;
+    text-align: center;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.summary{
+    color: #3758a3;
+}
+
+.work-details{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-size: small;
+}
+
+.education-details{
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+    font-size: small;
+}
+
+.software-engineer-details{
+    padding-bottom: 40px;
+    font-size: small;
+}
+
+.junior-developer{
+     padding-top: 20px; 
+}
+
+.intern-developer{
+     padding-top: 20px;
+}
+
+.software-engineer{
+    padding-top: 20px ;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: 770;
+    text-align: center;
+    font-family: system-ui;
+}
+
+.sfd{
+
+}
+
+.jfd{
+
+}
+
+.id{
+
+}
+
+.mse{
+
+}
+
+.bse{
+
 }
